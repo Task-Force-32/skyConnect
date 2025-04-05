@@ -1,0 +1,44 @@
+
+@page "/weather"
+@inject WeatherService WeatherService
+
+<h3>Previsão do Tempo</h3>
+
+<input @bind="city" placeholder="Cidade" />
+<button @onclick="BuscarPrevisao">Consultar</button>
+
+@if (!string.IsNullOrWhiteSpace(resultado))
+{
+    <p><strong>Temperatura:</strong> @temperatura °C</p>
+    <p><strong>Descrição:</strong> @descricao</p>
+}
+else if (erro)
+{
+    <p>Não foi possível obter os dados.</p>
+}
+
+@code {
+    private string city = "";
+    private string temperatura = "";
+    private string descricao = "";
+    private string resultado = "";
+    private bool erro = false;
+
+    private async Task BuscarPrevisao()
+    {
+        var dados = await WeatherService.GetWeatherDataAsync(city);
+        if (dados?.current_condition != null && dados.current_condition.Count > 0)
+        {
+            var condicao = dados.current_condition[0];
+            temperatura = condicao.temp_C ?? "";
+            descricao = condicao.weatherDesc?[0]?.value ?? "";
+            resultado = $"{city}: {descricao}, {temperatura}°C";
+            erro = false;
+        }
+        else
+        {
+            erro = true;
+            resultado = "";
+        }
+    }
+}

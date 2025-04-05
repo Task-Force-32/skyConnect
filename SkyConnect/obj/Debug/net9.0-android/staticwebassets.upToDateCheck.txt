@@ -1,0 +1,8 @@
+C:\Users\Miguel Romão\Documents\GitHub\skyConnect\SkyConnect\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\Miguel Romão\Documents\GitHub\skyConnect\SkyConnect\wwwroot\css\app.css
+C:\Users\Miguel Romão\Documents\GitHub\skyConnect\SkyConnect\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\Miguel Romão\Documents\GitHub\skyConnect\SkyConnect\wwwroot\index.html
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html

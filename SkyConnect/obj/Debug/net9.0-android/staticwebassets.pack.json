@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Miguel Romão\\Documents\\GitHub\\skyConnect\\SkyConnect\\obj\\Debug\\net9.0-android\\scopedcss\\bundle\\SkyConnect.styles.css",
+      "PackagePath": "staticwebassets\\SkyConnect.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel Romão\\Documents\\GitHub\\skyConnect\\SkyConnect\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel Romão\\Documents\\GitHub\\skyConnect\\SkyConnect\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel Romão\\Documents\\GitHub\\skyConnect\\SkyConnect\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel Romão\\Documents\\GitHub\\skyConnect\\SkyConnect\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.SkyConnect.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.SkyConnect.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.build.SkyConnect.props",
+      "PackagePath": "build\\SkyConnect.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.buildMultiTargeting.SkyConnect.props",
+      "PackagePath": "buildMultiTargeting\\SkyConnect.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-android\\staticwebassets\\msbuild.buildTransitive.SkyConnect.props",
+      "PackagePath": "buildTransitive\\SkyConnect.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
